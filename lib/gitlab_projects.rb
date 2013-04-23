@@ -9,11 +9,11 @@ class GitlabProjects
   attr_reader :project_name
 
   # Absolute path to directory where repositories stored
-  # By default it is /home/git/repositories
+  # By default it is /Users/git/repositories
   attr_reader :repos_path
 
   # Full path is an absolute path to the repository
-  # Ex /home/git/repositories/test.git
+  # Ex /Users/git/repositories/test.git
   attr_reader :full_path
 
   def initialize

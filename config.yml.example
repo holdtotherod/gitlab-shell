@@ -10,10 +10,10 @@ http_settings:
   self_signed_cert: false
 
 # Repositories path
-repos_path: "/home/git/repositories"
+repos_path: "/Users/git/repositories"
 
 # File used as authorized_keys for gitlab user
-auth_file: "/home/git/.ssh/authorized_keys"
+auth_file: "/Users/git/.ssh/authorized_keys"
 
 # Redis settings used for pushing commit notices to gitlab
 redis:

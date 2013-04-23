@@ -8,11 +8,11 @@ class GitlabConfig
   end
 
   def repos_path
-    @config['repos_path'] ||= "/home/git/repositories"
+    @config['repos_path'] ||= "/Users/git/repositories"
   end
 
   def auth_file
-    @config['auth_file'] ||= "/home/git/.ssh/authorized_keys"
+    @config['auth_file'] ||= "/Users/git/.ssh/authorized_keys"
   end
 
   def gitlab_url

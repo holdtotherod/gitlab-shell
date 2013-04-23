@@ -1,6 +1,6 @@
 #!/bin/bash
 
-home_dir="/home/git"
+home_dir="/Users/git"
 src="$home_dir/repositories"
 
 for dir in `ls "$src/"`

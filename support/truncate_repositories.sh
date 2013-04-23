@@ -1,6 +1,6 @@
 #!/bin/bash
 
-home_dir="/home/git"
+home_dir="/Users/git"
 
 echo "Danger!!! Data Loss"
 while true; do

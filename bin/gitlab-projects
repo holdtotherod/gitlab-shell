@@ -4,7 +4,7 @@
 require_relative '../lib/gitlab_init'
 
 #
-# GitLab Projects shell. Add/remove projects from /home/git/repositories
+# GitLab Projects shell. Add/remove projects from /Users/git/repositories
 #
 # Ex.
 #   /bin/gitlab-projects add-project gitlab/gitlab-ci.git
